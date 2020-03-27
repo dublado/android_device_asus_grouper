@@ -1,0 +1,3 @@
+allow platform_app platform_app:process ptrace;
+allow platform_app sysfs_module_fuse:file { open read };
+allow platform_app nfc_service:service_manager find;
